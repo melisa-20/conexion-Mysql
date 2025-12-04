@@ -18,7 +18,7 @@ public class BebidasDAO {
 
             int filas = statement.executeUpdate();
             if (filas >0){
-                System.out.println("producto enviado  ala BASE DE DATOS :)");
+                System.out.println("producto enviado  n ala BASE DE DATOS :)");
             }
         }catch (SQLException e){
             System.out.println("error de conexion"+ e.getMessage());
